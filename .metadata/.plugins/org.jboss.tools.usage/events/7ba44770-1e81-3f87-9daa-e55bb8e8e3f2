@@ -1,0 +1,11 @@
+#Wed Jun 14 17:04:05 CST 2017
+vl=How many times the 'Finish' button pressed during the day
+l=Wizard class name
+ct=jbt
+d=1497431045903
+c=0
+cmp=usage
+a=finishWizard
+cl=org.jboss.tools.cdi.ui.wizard.NewBeansXMLCreationWizard
+v=2.1.1
+s=2

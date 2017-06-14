@@ -1,0 +1,14 @@
+package sad;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/helloworld")
+public class Helloworld {
+	
+	@RequestMapping("/getString")
+	public String helloWorld(){
+		
+	}
+}

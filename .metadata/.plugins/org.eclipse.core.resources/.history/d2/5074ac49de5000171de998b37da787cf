@@ -1,0 +1,15 @@
+package sad;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/AutoTest")
+public class AutoTest {
+
+	@RequestMapping("/test")
+	public void test(){
+		System.out.println("1");
+	}
+	
+}

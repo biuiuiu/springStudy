@@ -1,0 +1,8 @@
+computeSourcePath=true
+contextsDir=D\:\\apache-tomcat-7.0.68-windows-x64\\apache-tomcat-hchcloud\\conf\\Catalina\\localhost
+eclipse.preferences.version=1
+projectsInCp=Sad;
+tomcatBase=D\:\\apache-tomcat-7.0.68-windows-x64\\apache-tomcat-hchcloud
+tomcatConfigFile=D\:\\apache-tomcat-7.0.68-windows-x64\\apache-tomcat-hchcloud\\conf\\server.xml
+tomcatDir=D\:\\apache-tomcat-7.0.68-windows-x64\\apache-tomcat-hchcloud
+tomcatVersion=tomcatV7

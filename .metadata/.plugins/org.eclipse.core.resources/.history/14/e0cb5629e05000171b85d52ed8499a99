@@ -1,0 +1,19 @@
+package sad;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@Path("/AutoTest")
+public class AutoTest {
+	
+	@GET
+	@RequestMapping("/test")
+	public void test(){
+		System.out.println("1");
+	}
+	
+}

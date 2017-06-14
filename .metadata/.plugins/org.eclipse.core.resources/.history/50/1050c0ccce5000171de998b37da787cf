@@ -1,0 +1,17 @@
+package sad;
+
+import javax.websocket.server.PathParam;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/helloworld")
+public class Helloworld {
+	
+	@RequestMapping("/getString/{id}")
+	public String helloWorld(@PathParam("id") String id){
+		System.out.println("aaa");
+		return "aaa";
+	}
+}

@@ -1,0 +1,35 @@
+package sad;
+
+import java.io.IOException;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.websocket.server.PathParam;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/helloworld")
+public class Helloworld {
+	
+	@Autowired
+	private HttpServletResponse response;
+	
+	public HttpServletResponse getResponse() {
+		return response;
+	}
+
+	@javax.annotation.Resource
+	public void setResponse(HttpServletResponse response) {
+		this.response = response;
+	}
+	
+	@RequestMapping("/getString/{id}")
+	public String helloWorld(@PathParam("id") String id,HttpServletRequest request, HttpServletResponse response1) throws IOException{
+		System.out.println("aaa");
+		response.getWriter().write("nb");
+		return "aaa";
+	}
+}
